@@ -4,8 +4,8 @@ public class Main {
 
 	public static void main(String[] args){
 		
-		ProducerPublisher prodA = new ProducerA();
-		ProducerPublisher prodB = new ProducerB();
+		ProducerA prodA = new ProducerA();
+		ProducerB prodB = new ProducerB();
 		SupplierA supA = new SupplierA();
 		SupplierB supB = new SupplierB();
 		CustomerA cusA = new CustomerA();
